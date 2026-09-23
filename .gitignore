@@ -1,0 +1,73 @@
+# -------------------------------------------------------------------
+# Project: Safety School - Oggaz Plant
+# -------------------------------------------------------------------
+
+# Operating system files
+.DS_Store
+Desktop.ini
+Thumbs.db
+._*
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*.tmp
+*~
+
+# Logs and temporary artifacts
+*.log
+logs/
+.cache/
+coverage/
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Local environment and sensitive data
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+config.local.*
+
+# Google Apps Script local metadata
+.clasp.json
+.clasprc.json
+
+# Node / package manager artifacts
+node_modules/
+.npm/
+.pnpm-store/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build and generated assets
+build/
+dist/
+out/
+*.generated
+*.local
+
+# Archive files
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Generic system files
+.AppleDouble
+.LSOverride
+
+# Optional project-specific generated content
+*.csv
+*.json
+!package.json
